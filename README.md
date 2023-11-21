@@ -59,9 +59,9 @@ Usage: check_hycu_license.pl -H <hostname> -p <port>  -u <User> -P <password> [-
 sample :
 
 ```bash
-./check_hycu_license.pl -H MyHYCUserver --ssl -p 8443 -a v1.0 -n MyvmToBackup  -u user@domain -P password -c 100: -w 120:
+./check_hycu_license.pl -H MyHYCUserver --ssl -p 8443 -a v1.0 -u user@domain -P password -c 100: -w 120:
 ```
 you may get :
 ```bash
-check_hycu_license OK - license status is VALID status message : The license is valid. | license_days_left=1641d;120:;100:d;1;2
+check_hycu_license OK - license status is VALID status message : The license is valid. | license_days_left=1641d;120:;100:d
 ```
