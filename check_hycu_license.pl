@@ -4,7 +4,7 @@
 # Usage Syntax  : check_hycu_license.pl -H <hostname> -p <port>  -u <User> -P <password> [-w <threshold> ] [-c <threshold> ]  [-t <timeout>] [-a <apiversion>] 
 # Version       : 1.0.0
 # Last Modified :15/04/2022
-# Modified By   : J DESMAREST (Open Groupe)
+# Modified By   : J DESMAREST (Start81)
 # Description   : Nagios check that uses HYCUs REST API to get license status
 # Depends On    : Net::SNMP; Monitoring::Plugin; Data::Dumper ;MIME::Base64; JSON; REST::Client; LWP::UserAgent
 # 
